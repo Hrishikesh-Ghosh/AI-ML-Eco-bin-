@@ -15,10 +15,8 @@ Step 5: Install YOLO and Train
 Step 6: Monitor Training and Evaluate
 
 Step 7: Test with New Waste Images
-(Above 4 steps done on Google Collab, the ipynb nb is saved- Attempt8.ipynb is best attempt that comes closest to giving us accurate results)
 
-Step 8: Connect to web-cam (done by watching the YouTube video https://www.youtube.com/watch?v=r0RspiLG260, another vid that helped a lot: 
-https://www.youtube.com/watch?v=m9fH9OWn8YM&t=3764s)
+Step 8: Connect to web-cam 
 
 Code to connect to webcam (on Anaconda):
 
@@ -38,3 +36,4 @@ yolo_detect.py: error: the following arguments are required: --source
 (yolo-env1) D:\Envision AI ML\Eco bin\my_model>python yolo_detect.py --model my_model.pt --source usb0 --resolution 1280x720
 
 Step 9: Ask ESM guys to combine with physical dustbin or something idk tbh
+
