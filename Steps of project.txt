@@ -1,0 +1,40 @@
+9 steps:
+
+Step 1: Decide YOLO model (Decided YOLO 8)
+
+Step 2: Data Collection
+At least 1000 images per class for decent performance. (Got from Kaggle, links in notepad titled "datasets and related info")
+
+Step 3: Label the Data
+Used CVAT (go to account icon, project tab, organizations, teamen)
+
+Step 4: Organize the Dataset for YOLO
+
+Step 5: Install YOLO and Train
+
+Step 6: Monitor Training and Evaluate
+
+Step 7: Test with New Waste Images
+(Above 4 steps done on Google Collab, the ipynb nb is saved- Attempt8.ipynb is best attempt that comes closest to giving us accurate results)
+
+Step 8: Connect to web-cam (done by watching the YouTube video https://www.youtube.com/watch?v=r0RspiLG260, another vid that helped a lot: 
+https://www.youtube.com/watch?v=m9fH9OWn8YM&t=3764s)
+
+Code to connect to webcam (on Anaconda):
+
+(base) C:\Users\hrish>conda activate yolo-env1
+
+(yolo-env1) C:\Users\hrish>cd /d "D:\Envision AI ML\Eco bin\my_model"
+
+(yolo-env1) D:\Envision AI ML\Eco bin\my_model>curl -o yolo_detect.py https://www.ejtech.io/code/yolo_detect.py
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  9685  100  9685    0     0   3906      0  0:00:02  0:00:02 --:--:--  3906
+
+(yolo-env1) D:\Envision AI ML\Eco bin\my_model>python yolo_detect.py --model my_model.pt
+usage: yolo_detect.py [-h] --model MODEL --source SOURCE [--thresh THRESH] [--resolution RESOLUTION] [--record]
+yolo_detect.py: error: the following arguments are required: --source
+
+(yolo-env1) D:\Envision AI ML\Eco bin\my_model>python yolo_detect.py --model my_model.pt --source usb0 --resolution 1280x720
+
+Step 9: Ask ESM guys to combine with physical dustbin or something idk tbh

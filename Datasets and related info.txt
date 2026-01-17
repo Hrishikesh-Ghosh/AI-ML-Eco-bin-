@@ -1,0 +1,31 @@
+https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification?datasetId=81794&sortBy=voteCount
+https://www.kaggle.com/datasets/techsash/waste-classification-data?datasetId=233210&sortBy=voteCount 
+https://www.kaggle.com/datasets/mostafaabla/garbage-classification
+
+Web Scraping: https://youtu.be/8dTpNajxaH0?si=dYbQTLYAM9ZjnczP
+
+Plastic Waste (1000 needed at least, 400 found):
+Bottles
+Bags
+Cutlery
+Straws
+
+Metal Waste (1000 needed at least, 400 found):
+Beverage Cans
+Steel/Iron Scraps
+Ferrous Waste
+Car Parts
+Construction Materials
+Household Appliances
+Containers
+Non-Ferrous Waste:
+Aluminium (Al), Copper (Cu), Brass Scraps
+Copper Wires & Pipes
+Brass Fittings
+
+Organic Waste (1000 needed at least, found way more):
+Peels
+Tea Bags
+Food Leftovers
+Seeds
+Non-edible Parts of Vegetables

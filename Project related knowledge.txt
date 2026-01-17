@@ -1,0 +1,9 @@
+Videos explaining:
+CNN: https://www.youtube.com/watch?v=YRhxdVk_sIs
+
+Image classification vs Object detection vs Image Segmentation: https://www.youtube.com/watch?v=taC5pMCm70U
+
+Sliding Window Object Detection: https://www.youtube.com/watch?v=AimW3j7M2Uw
+
+YOLO algorithm, practical example of object detection using it, again YOLO algo: https://www.youtube.com/watch?v=ag3DLKsl2vk, https://www.youtube.com/watch?v=IfRMV2MY9n0&t=222s,
+https://www.youtube.com/watch?v=J__DmmGBcdU
